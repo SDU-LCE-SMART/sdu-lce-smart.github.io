@@ -3,47 +3,82 @@
 
 @import "bootstrap";
 
-body {
-  padding-top: 70px;
-  font-size: 17px;
-  line-height: 1.7;
-  color: #333;
+/* --------------------------
+   GLOBAL COLOR SYSTEM
+--------------------------- */
+
+:root {
+  --black: #111;
+  --dark-gray: #333;
+  --gray: #777;
+  --light-gray: #e5e5e5;
+  --background: #fafafa;
+  --white: #ffffff;
 }
 
-figcaption {
-  text-align: right;
-  margin-top: -20px;
+
+/* --------------------------
+   GLOBAL TYPOGRAPHY
+--------------------------- */
+
+body {
+  padding-top: 70px;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--dark-gray);
+  background: var(--background);
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+h1, h2, h3, h4 {
+  color: var(--black);
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 60px;
   margin-bottom: 20px;
 }
+
+h3 {
+  margin-top: 30px;
+}
+
+
+/* --------------------------
+   LINKS
+--------------------------- */
+
+a {
+  color: var(--dark-gray);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  border-bottom: 1px solid var(--dark-gray);
+}
+
+
+/* --------------------------
+   HERO IMAGE
+--------------------------- */
 
 .hero-banner img {
   width: 100%;
   height: 420px;
   object-fit: cover;
+  filter: grayscale(100%);
 }
 
-.breadcrumb {
-  background: none;
-  border: none;
-  display: block;
-  margin-left: 0;
-  padding-left: 0;
-}
 
-.nopadding-left {
-  padding-left: 0 !important;
-  margin-left: 0 !important;
-}
-
-.nopadding-right {
-  padding-right: 0 !important;
-  margin-right: 0 !important;
-}
-
-.team-member-card {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+/* --------------------------
+   PAGE LAYOUT
+--------------------------- */
 
 .container-fluid {
   width: 100%;
@@ -56,40 +91,82 @@ figcaption {
   margin: 0 auto;
 }
 
-h2 {
-  margin-top: 60px;
-  margin-bottom: 20px;
-}
 
-h3 {
-  margin-top: 30px;
-}
-
-p {
-  margin-bottom: 15px;
-}
+/* --------------------------
+   NAVBAR
+--------------------------- */
 
 .navbar {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e5e5e5;
+  background: var(--white);
+  border-bottom: 1px solid var(--light-gray);
 }
 
 .navbar-brand {
   font-weight: 600;
+  color: var(--black);
 }
 
 .navbar-nav > li > a {
   font-size: 15px;
+  color: var(--dark-gray);
 }
 
+.navbar-nav > li > a:hover {
+  color: var(--black);
+}
+
+
+/* --------------------------
+   FIGURES
+--------------------------- */
+
+figcaption {
+  text-align: right;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  color: var(--gray);
+}
+
+
+/* --------------------------
+   BREADCRUMBS
+--------------------------- */
+
+.breadcrumb {
+  background: none;
+  border: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+
+/* --------------------------
+   TEAM MEMBER CARDS
+--------------------------- */
+
+.team-member-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* --------------------------
+   SECTION SPACING
+--------------------------- */
+
 .section-divider {
-  border-top: 1px solid #eee;
+  border-top: 1px solid var(--light-gray);
   margin: 60px 0;
 }
 
+
+/* --------------------------
+   FOOTER
+--------------------------- */
+
 .footer-section {
-  background: #f8f8f8;
-  border-top: 1px solid #e5e5e5;
+  background: var(--white);
+  border-top: 1px solid var(--light-gray);
   margin-top: 80px;
   padding: 40px 0;
 }
@@ -109,30 +186,51 @@ p {
 }
 
 .footer-links a {
-  color: #003d7c;
+  color: var(--gray);
 }
 
 .footer-links a:hover {
-  text-decoration: underline;
+  color: var(--black);
 }
 
 .footer-copy {
-  color: #777;
+  color: var(--gray);
   font-size: 14px;
 }
 
-a {
-  color: #003d7c;
+
+/* --------------------------
+   UTILITY CLASSES
+--------------------------- */
+
+.nopadding-left {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
 }
 
-a:hover {
-  color: #0073e6;
+.nopadding-right {
+  padding-right: 0 !important;
+  margin-right: 0 !important;
 }
 
-/* Carousel */
+
+/* --------------------------
+   IMAGE DEFAULTS
+--------------------------- */
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+
+/* --------------------------
+   CAROUSEL (if used later)
+--------------------------- */
 
 .carousel {
-  border-radius: 3px 3px 3px 3px;
+  border-radius: 3px;
   margin-bottom: 20px;
   margin-top: 20px;
 }
