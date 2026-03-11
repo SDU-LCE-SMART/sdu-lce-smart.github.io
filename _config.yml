@@ -3,13 +3,13 @@
 # You can get access to RAW repository from this address: https://github.com/ericdaat/research-lab-website
 
 # Site settings
-title:   SMART LIFE CYCLE ENGINEERING LAB 
+title: SMART Life Cycle Engineering Lab
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   #It will appear in your document head meta (for Google search results) and in your feed.xml site description.
   LCA Experts in IGT section at the University of Southern Denmark.
 baseurl: ""
-url: ""
+url: "https://sdu-lce-smart.github.io"
 
 include:
   - .htaccess
