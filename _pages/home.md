@@ -6,9 +6,10 @@ permalink: /
 
 ## About the Lab
 
-The **SMART Life Cycle Engineering Lab** at the University of Southern Denmark develops tools and methods for sustainable resource management.
+The **LCE Smart Resource Management Team (SMART)** team is part of the Center for Life Cycle Engineering (LCE) at the Department of Green Technology, Faculty of Engineering, University of Southern Denmark. We are an international research group dedicated to advancing quantitative approaches for evaluating and improving the sustainability of emerging technologies and bio-based systems.
+Our work integrates Life Cycle Assessment (LCA), Safe and Sustainable by Design (SSbD), and Techno-Economic Assessment (TEA) to evaluate and improve the environmental and economic performance of emerging bio-based and industrial systems. By combining methodological development with practical applications, we aim to generate robust scientific insights that support sustainable innovation.
+The team is particularly interested in developing new analytical tools, methodological frameworks, and AI-based solutions that enhance sustainability assessment and decision-making across complex value chains. Through interdisciplinary collaboration, we contribute to advancing sustainable technologies and circular bioeconomy solutions.
 
-Our work focuses on circular economy systems, industrial symbiosis, and life-cycle-based decision support for sustainable systems.
 
 ---
 
