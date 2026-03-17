@@ -1,20 +1,20 @@
 ---
 layout: member
-category: Team Supervisor 
+category: "Team Supervisor" 
 title: Benyamin Khoshnevisan
-image:IMG_0742.JPG.jpeg
+image: IMG_0742.JPG.jpeg
 role: Associate Professor
-permalink: 'team/researcher-name'
+permalink: /team/researcher-name/
 social:
     Email: bekh@igt.sdu.dk
-    linkedin: [https://www.linkedin.com/](https://www.linkedin.com/in/benyamin-khoshnevisan-23a51888/)
-    google-scholar: [https://scholar.google.fr/](https://scholar.google.com/citations?hl=en&authuser=1&user=AnG-_6IAAAAJ)
-    github: 
+    linkedin: https://www.linkedin.com/in/benyamin-khoshnevisan-23a51888/
+    google-scholar: https://scholar.google.com/citations?hl=en&authuser=1&user=AnG-_6IAAAAJ
+    github: ""
     website: https://portal.findresearcher.sdu.dk/da/persons/benyamin-khoshnevisan/
     orcid: https://orcid.org/0000-0003-0236-5970
     research-gate: https://www.researchgate.net/
 education:
- - Education
+ - "PhD in Biosystems Engineering"
 ---
 
 Dr. Khoshnevisan is an Associate Professor at the Center for Life Cycle Engineering, Faculty of Engineering, University of Southern Denmark. He obtained his PhD in Biosystems Engineering from the University of Tehran. Following his PhD, he worked as a researcher at the Technical University of Denmark and as a postdoctoral researcher at the Institute of Agricultural Resources and Regional Planning (Chinese Academy of Agricultural Sciences) before joining SDU in 2021.<br>
