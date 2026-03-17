@@ -34,9 +34,13 @@ body {
   background: var(--background);
 }
 
+.about-section p {
+  text-align: justify;
+}
+
 p {
   margin-bottom: 15px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 h1, h2, h3, h4 {
