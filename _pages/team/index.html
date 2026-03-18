@@ -40,12 +40,12 @@ permalink: /team/
 {% endfor %}
 
 <!-- =========================
-         STAFF
+         PhDs
 ========================= -->
 
-<h2 id="staff" class="team-section-title">Staff</h2>
+<h2 id="phds" class="team-section-title">PhDs</h2>
 
-{% assign members = site.posts | where: 'category', 'staff' | sort: 'date' %}
+{% assign members = site.posts | where: 'category', 'phds' | sort: 'date' %}
 {% for member in members %}
 <div class="team-card">
 
