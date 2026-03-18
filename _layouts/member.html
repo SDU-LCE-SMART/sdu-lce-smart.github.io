@@ -1,138 +1,70 @@
----
-layout: default
----
-
 <div class="container-fluid">
 
-  <!-- =========================
-         BREADCRUMB
-  ========================= -->
+  <!-- BREADCRUMB -->
   <div class="row">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="{{ site.baseurl }}/team">Team</a>
-        </li>
-        <li class="breadcrumb-item text-capitalize">
-          <a href="{{ site.baseurl }}/team#{{ page.category }}">{{ page.category }}</a>
-        </li>
-        <li class="breadcrumb-item active" aria-current="page">
-          {{ page.title }}
-        </li>
+        <li><a href="{{ site.baseurl }}/team">Team</a></li>
+        <li><a href="{{ site.baseurl }}/team#{{ page.category }}">{{ page.category }}</a></li>
+        <li class="active">{{ page.title }}</li>
       </ol>
     </nav>
   </div>
 
-  <!-- =========================
-         HEADER (IMAGE + NAME)
-  ========================= -->
-  <div class="row text-center">
+  <!-- MAIN PROFILE -->
+  <div class="row member-layout">
 
-    <!-- IMAGE -->
-    <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ page.image }}"
-         class="member-photo"
-         alt="{{ page.title }}">
+    <!-- LEFT: PHOTO -->
+    <div class="col-md-3 text-center">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ page.image }}"
+           class="member-photo">
+    </div>
 
-    <!-- NAME & ROLE -->
-    <h1>{{ page.title }}</h1>
-    <h3>{{ page.role }}</h3>
+    <!-- RIGHT: INFO -->
+    <div class="col-md-9">
 
-    <!-- =========================
-           SOCIAL
-    ========================= -->
-    <ul class="list-inline list-unstyled member-social">
+      <h1 class="member-name">{{ page.title }}</h1>
+      <h4 class="member-role">{{ page.role }}</h4>
 
-      {% if page.social.Email %}
-        <li>
-          <a href="mailto:{{ page.social.Email }}">
-            <i class="fas fa-envelope"></i>
-          </a>
-        </li>
-      {% endif %}
+      <!-- SOCIAL -->
+      <div class="member-social">
+        {% if page.social.Email %}
+          <a href="mailto:{{ page.social.Email }}">Email</a>
+        {% endif %}
 
-      {% if page.social.twitter %}
-        <li>
-          <a target="_blank" href="{{ page.social.twitter }}">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-      {% endif %}
+        {% if page.social.linkedin %}
+          <a href="{{ page.social.linkedin }}" target="_blank">LinkedIn</a>
+        {% endif %}
 
-      {% if page.social.linkedin %}
-        <li>
-          <a target="_blank" href="{{ page.social.linkedin }}">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-      {% endif %}
+        {% if page.social["google-scholar"] %}
+          <a href="{{ page.social["google-scholar"] }}" target="_blank">Scholar</a>
+        {% endif %}
 
-      {% if page.social.github %}
-        <li>
-          <a target="_blank" href="{{ page.social.github }}">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-      {% endif %}
+        {% if page.social.website %}
+          <a href="{{ page.social.website }}" target="_blank">Website</a>
+        {% endif %}
+      </div>
 
-      {% if page.social.website %}
-        <li>
-          <a target="_blank" href="{{ page.social.website }}">
-            <i class="fas fa-globe"></i>
-          </a>
-        </li>
-      {% endif %}
-
-
-      {% if page.social["google-scholar"] %}
-        <li>
-          <a target="_blank" href="{{ page.social["google-scholar"] }}">
-            <i class="fab fa-google"></i>
-          </a>
-        </li>
-      {% endif %}
-
-      {% if page.social.orcid %}
-        <li>
-          <a target="_blank" href="{{ page.social.orcid }}">
-            <i class="fab fa-orcid"></i>
-          </a>
-        </li>
-      {% endif %}
-
-      {% if page.social["research-gate"] %}
-        <li>
-          <a target="_blank" href="{{ page.social["research-gate"] }}">
-            <i class="fab fa-researchgate"></i>
-          </a>
-        </li>
-      {% endif %}
-
-    </ul>
+    </div>
   </div>
 
-  <!-- =========================
-         MAIN CONTENT
-  ========================= -->
-  <div class="row member-section">
+  <!-- BIO -->
+  <div class="row">
+    <div class="col-md-12 member-bio">
+      {{ content }}
+    </div>
+  </div>
 
-    <!-- EDUCATION -->
-    <div class="col-md-4">
+  <!-- EDUCATION -->
+  <div class="row member-education">
+    <div class="col-md-12">
       <h3>Education</h3>
-      <ul class="list-unstyled">
+      <ul>
         {% for education in page.education %}
           <li>{{ education }}</li>
         {% endfor %}
       </ul>
     </div>
-
-    <!-- BIO -->
-    <div class="col-md-8">
-      <h3>Bio</h3>
-      <div class="member-bio">
-        {{ content }}
-      </div>
-    </div>
-
   </div>
 
 </div>
