@@ -308,40 +308,46 @@ img {
 /* --------------------------
    MEMBERS DEFAULTS
 --------------------------- */
-
-.member-bio {
-  text-align: justify;
-  line-height: 1.8;
-  max-width: 800px;
-  margin: 0 auto;
+.member-layout {
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .member-photo {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
   border-radius: 50%;
-  filter: none !important;
-  margin-bottom: 20px;
 }
 
-.member-social li {
-  display: inline-block;
-  margin: 0 8px;
+.member-name {
+  margin-top: 0;
+}
+
+.member-role {
+  color: #666;
+  margin-bottom: 15px;
 }
 
 .member-social a {
-  font-size: 18px;
+  margin-right: 15px;
   color: var(--green-primary);
+  font-weight: 500;
 }
 
-.member-section {
+.member-social a:hover {
+  text-decoration: underline;
+}
+
+.member-bio {
+  margin-top: 30px;
+  max-width: 800px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.member-education {
   margin-top: 40px;
-}
-
-.member-section h3 {
-  text-align: left;
-  margin-bottom: 15px;
 }
 
 /* =========================
