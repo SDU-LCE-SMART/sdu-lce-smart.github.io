@@ -13,7 +13,7 @@ social:
     github:
     website: https://portal.findresearcher.sdu.dk/da/persons/benyamin-khoshnevisan/
     orcid: https://orcid.org/0000-0003-0236-5970
-    research-gate:
+    research-gate: https://www.researchgate.net/profile/Benyamin-Khoshnevisan
 education:
  - "PhD in Biosystems Engineering"
 ---
