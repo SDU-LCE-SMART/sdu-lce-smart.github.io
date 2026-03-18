@@ -1,36 +1,40 @@
-<div class="container-fluid">
+---
+layout: default
+---
+
+<div class="container member-container">
 
   <!-- BREADCRUMB -->
-  <div class="row">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li><a href="{{ site.baseurl }}/team">Team</a></li>
-        <li><a href="{{ site.baseurl }}/team#{{ page.category }}">{{ page.category }}</a></li>
-        <li class="active">{{ page.title }}</li>
-      </ol>
-    </nav>
+  <div class="breadcrumb">
+    <a href="{{ site.baseurl }}/team">Team</a> /
+    <a href="{{ site.baseurl }}/team#{{ page.category }}">{{ page.category }}</a> /
+    <span>{{ page.title }}</span>
   </div>
 
-  <!-- MAIN PROFILE -->
-  <div class="row member-layout">
+  <!-- HEADER -->
+  <div class="member-header">
 
-    <!-- LEFT: PHOTO -->
-    <div class="col-md-3 text-center">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ page.image }}"
-           class="member-photo">
+    <!-- IMAGE -->
+    <div class="member-left">
+      <img src="{{ site.baseurl }}/images/team/{{ page.image }}"
+           alt="{{ page.title }}">
     </div>
 
-    <!-- RIGHT: INFO -->
-    <div class="col-md-9">
+    <!-- INFO -->
+    <div class="member-right">
 
-      <h1 class="member-name">{{ page.title }}</h1>
-      <h4 class="member-role">{{ page.role }}</h4>
+      <h1>{{ page.title }}</h1>
+      <h3>{{ page.role }}</h3>
 
-      <!-- SOCIAL -->
-      <div class="member-social">
-        {% if page.social.Email %}
-          <a href="mailto:{{ page.social.Email }}">Email</a>
-        {% endif %}
+      <!-- EMAIL -->
+      {% if page.email %}
+        <p class="member-email">
+          <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+        </p>
+      {% endif %}
+
+      <!-- SOCIAL LINKS -->
+      <div class="member-links">
 
         {% if page.social.linkedin %}
           <a href="{{ page.social.linkedin }}" target="_blank">LinkedIn</a>
@@ -43,28 +47,25 @@
         {% if page.social.website %}
           <a href="{{ page.social.website }}" target="_blank">Website</a>
         {% endif %}
+
       </div>
 
     </div>
   </div>
 
   <!-- BIO -->
-  <div class="row">
-    <div class="col-md-12 member-bio">
-      {{ content }}
-    </div>
+  <div class="member-bio">
+    {{ content }}
   </div>
 
   <!-- EDUCATION -->
-  <div class="row member-education">
-    <div class="col-md-12">
-      <h3>Education</h3>
-      <ul>
-        {% for education in page.education %}
-          <li>{{ education }}</li>
-        {% endfor %}
-      </ul>
-    </div>
+  <div class="member-education">
+    <h3>Education</h3>
+    <ul>
+      {% for education in page.education %}
+        <li>{{ education }}</li>
+      {% endfor %}
+    </ul>
   </div>
 
 </div>
