@@ -1,6 +1,6 @@
 ---
 layout: member
-category: PhDs
+category: phds
 title: Amin Sadeghi Sheshdeh
 image: Amin-Sadeghi-Sheshdeh.jpg
 role: PhD Candidate
