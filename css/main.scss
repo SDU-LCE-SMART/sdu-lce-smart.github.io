@@ -304,3 +304,23 @@ img {
   height: auto;
   border-radius: 2px;
 }
+
+/* --------------------------
+   MEMBERS DEFAULTS
+--------------------------- */
+
+.member-bio {
+  text-align: justify;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.member-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: none !important;
+  margin-bottom: 20px;
+}
