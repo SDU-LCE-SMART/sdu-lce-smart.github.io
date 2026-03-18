@@ -101,3 +101,35 @@ permalink: /team/
 
 </div>
 {% endfor %}
+
+
+<!-- =========================
+         Research Assistants
+========================= -->
+
+<h2 id="research-assistants" class="team-section-title">Research Assistants</h2>
+
+{% assign members = site.posts | where: 'category', 'research-assistants' | sort: 'date' %}
+{% for member in members %}
+<div class="team-card">
+
+    <div class="team-card-row">
+
+        <!-- IMAGE -->
+        <div class="team-image">
+            <a href="{{ member.url }}">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+                     class="team-photo"/>
+            </a>
+        </div>
+
+        <!-- INFO -->
+        <div class="team-info">
+            <h4 class="team-name">{{ member.title }}</h4>
+            <p class="team-role">{{ member.role }}</p>
+        </div>
+
+    </div>
+
+</div>
+{% endfor %}
