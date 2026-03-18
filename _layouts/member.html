@@ -53,6 +53,18 @@ layout: default
             <i class="fas fa-globe"></i>
           </a>
         {% endif %}
+        
+        {% if page.social.orcid %}
+          <a href="{{ page.social.orcid }}" target="_blank">
+            <i class="fas fa-id-badge"></i>
+          </a>
+        {% endif %}
+      
+        {% if page.social["research-gate"] %}
+          <a href="{{ page.social["research-gate"] }}" target="_blank">
+            <i class="fas fa-flask"></i>
+          </a>
+        {% endif %}
 
       </div>
 
