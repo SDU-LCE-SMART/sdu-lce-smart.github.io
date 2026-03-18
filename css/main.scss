@@ -324,3 +324,63 @@ img {
   filter: none !important;
   margin-bottom: 20px;
 }
+
+/* =========================
+   TEAM PAGE
+========================= */
+
+.team-title {
+  margin-bottom: 40px;
+}
+
+/* Section titles */
+.team-section-title {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  border-left: 4px solid var(--green-primary);
+  padding-left: 12px;
+}
+
+/* Card container */
+.team-card {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+/* Row layout */
+.team-card-row {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+/* Image container */
+.team-image {
+  flex-shrink: 0;
+}
+
+/* IMAGE STYLE (FIXED) */
+.team-photo {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;       /* circular */
+  filter: none !important;  /* remove grayscale */
+}
+
+/* Info section */
+.team-info {
+  flex: 1;
+}
+
+/* Name */
+.team-name {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+/* Role */
+.team-role {
+  color: var(--gray);
+  margin: 0;
+}
