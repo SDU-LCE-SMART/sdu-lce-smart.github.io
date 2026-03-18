@@ -4,7 +4,7 @@ category: phds
 title: Amin Sadeghi Sheshdeh
 image: Amin-Sadeghi-Sheshdeh.jpg
 role: PhD Candidate
-permalink: /team/researcher-name/
+permalink: /team/Amin-Sadeghi-Sheshdeh/
 email: amsa@igt.sdu.dk
 social:
     twitter: https://x.com/AminSadeghi96
