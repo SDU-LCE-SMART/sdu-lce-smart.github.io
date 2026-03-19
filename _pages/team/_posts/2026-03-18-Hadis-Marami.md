@@ -3,7 +3,7 @@ layout: member
 category: postdoctorals
 title: Hadis Marami
 image: Hadis-Marami.jpg
-role: Postdoctoral Candidate
+role: Postdoctoral
 permalink: /team/Hadis-Marami/
 email: hmar@igt.sdu.dk
 social:
