@@ -2,7 +2,7 @@
 layout: member
 category: research-assistants
 title: Sahar Khademi
-image: MH.jpeg
+image: Sahar-Khademi.jpeg
 role: Research Assistant
 permalink: /team/Sahar-Khademi/
 email: sakh@igt.sdu.dk
