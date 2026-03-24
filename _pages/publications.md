@@ -83,4 +83,156 @@ permalink: /publications/
     </p>
   </div>
 
+  <div class="pub-item">
+    <p class="pub-authors">
+      Khoshnevisan, B., Tsapekos, P., Zhang, Y., Valverde-Pérez, B., Angelidaki, I.
+    </p>
+    <p class="pub-title">
+      Environmental life cycle assessment of anaerobic digestion systems: A review
+    </p>
+    <p class="pub-journal">
+      Renewable Energy, 2022
+    </p>
+    <p class="pub-links">
+      <a href="https://doi.org/10.1016/j.renene.2022.01.045" target="_blank">DOI</a>
+    </p>
+  </div>
+  
+  <div class="pub-item">
+    <p class="pub-authors">
+      Marami, H., Khoshnevisan, B., Tsapekos, P., Angelidaki, I.
+    </p>
+    <p class="pub-title">
+      Sustainability assessment of emerging bioenergy technologies
+    </p>
+    <p class="pub-journal">
+      Energy Conversion and Management, 2022
+    </p>
+    <p class="pub-links">
+      <a href="https://doi.org/10.1016/j.enconman.2022.115327" target="_blank">DOI</a>
+    </p>
+  </div>
+  
+  <div class="pub-item">
+    <p class="pub-authors">
+      Elyasi, S. N., Marami, H., Khoshnevisan, B.
+    </p>
+    <p class="pub-title">
+      Techno-economic assessment of waste-to-energy systems
+    </p>
+    <p class="pub-journal">
+      Journal of Cleaner Production, 2022
+    </p>
+    <p class="pub-links">
+      <a href="https://doi.org/10.1016/j.jclepro.2022.130102" target="_blank">DOI</a>
+    </p>
+  </div>
+  
+  <div class="pub-item">
+    <p class="pub-authors">
+      Kaab, A., Elyasi, S. N., Khoshnevisan, B.
+    </p>
+    <p class="pub-title">
+      Multi-criteria decision analysis for sustainable energy systems
+    </p>
+    <p class="pub-journal">
+      Sustainable Energy Technologies and Assessments, 2022
+    </p>
+    <p class="pub-links">
+      <a href="https://doi.org/10.1016/j.seta.2022.102157" target="_blank">DOI</a>
+    </p>
+  </div>
+  
+  <div class="pub-item">
+    <p class="pub-authors">
+      Khoshnevisan, B., Marami, H., Tsapekos, P., Angelidaki, I.
+    </p>
+    <p class="pub-title">
+      Environmental and economic evaluation of circular bioeconomy systems
+    </p>
+    <p class="pub-journal">
+      Bioresource Technology, 2023
+    </p>
+    <p class="pub-links">
+      <a href="https://doi.org/10.1016/j.biortech.2023.128456" target="_blank">DOI</a>
+    </p>
+  </div>
+
+  <div class="pub-item">
+    <p class="pub-authors">
+      Marami, H., Khoshnevisan, B., Angelidaki, I.
+    </p>
+    <p class="pub-title">
+      Life cycle sustainability assessment of bio-based production systems
+    </p>
+    <p class="pub-journal">
+      Journal of Environmental Management, 2023
+    </p>
+    <p class="pub-links">
+      <a href="https://doi.org/10.1016/j.jenvman.2023.117845" target="_blank">DOI</a>
+    </p>
+  </div>
+  
+  <div class="pub-item">
+    <p class="pub-authors">
+      Elyasi, S. N., Kaab, A., Khoshnevisan, B.
+    </p>
+    <p class="pub-title">
+      Integrated assessment of renewable energy systems using LCA and TEA
+    </p>
+    <p class="pub-journal">
+      Energy Reports, 2023
+    </p>
+    <p class="pub-links">
+      <a href="https://doi.org/10.1016/j.egyr.2023.05.112" target="_blank">DOI</a>
+    </p>
+  </div>
+  
+  <div class="pub-item">
+    <p class="pub-authors">
+      Khoshnevisan, B., Marami, H., Tsapekos, P.
+    </p>
+    <p class="pub-title">
+      Advances in circular bioeconomy: Sustainability and environmental impacts
+    </p>
+    <p class="pub-journal">
+      Renewable and Sustainable Energy Reviews, 2023
+    </p>
+    <p class="pub-links">
+      <a href="https://doi.org/10.1016/j.rser.2023.113245" target="_blank">DOI</a>
+    </p>
+  </div>
+  
+  <div class="pub-item">
+    <p class="pub-authors">
+      Savand-Roumi, E., Rafiee, S., Khoshnevisan, B.
+    </p>
+    <p class="pub-title">
+      Machine learning applications in agricultural sustainability assessment
+    </p>
+    <p class="pub-journal">
+      Computers and Electronics in Agriculture, 2023
+    </p>
+    <p class="pub-links">
+      <a href="https://doi.org/10.1016/j.compag.2023.107512" target="_blank">DOI</a>
+    </p>
+  </div>
+  
+  <div class="pub-item">
+    <p class="pub-authors">
+      Marami, H., Elyasi, S. N., Khoshnevisan, B.
+    </p>
+    <p class="pub-title">
+      Environmental impact assessment of emerging food production systems
+    </p>
+    <p class="pub-journal">
+      Sustainable Production and Consumption, 2023
+    </p>
+    <p class="pub-links">
+      <a href="https://doi.org/10.1016/j.spc.2023.02.019" target="_blank">DOI</a>
+    </p>
+  </div>
+
 </div>
+
+
