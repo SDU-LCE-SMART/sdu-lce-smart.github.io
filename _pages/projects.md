@@ -134,11 +134,11 @@ GreenImPro is a research and innovation project that develops scalable biorefine
 [https://innovationsfonden.dk/en/news/new-project-will-revolutionize](https://innovationsfonden.dk/en/news/new-project-will-revolutionize)
 
 ---
-<a id="alliance"></a>
+<a id="take-off"></a>
 ## TAKE-OFF
 **Production of synthetic renewable aviation fuel from CO2 and H2.**
 <div class="project-logo-box">
-  <img src="/images/alliance.png">
+  <img src="/images/take-off.png">
 </div>
 
 **Duration:** 01/2021 – 12/2024  
@@ -152,5 +152,25 @@ The TAKE-OFF project aims to develop and demonstrate advanced technologies for p
 
 **Project Link:**  
 [TAKE-OFF](https://takeoff-project.eu/)
+
+---
+
+<a id="alliance"></a>
+## Walnut
+**Closing wastewater cycles for nutrient recovery**
+<div class="project-logo-box">
+  <img src="/images/walnut.png">
+</div>
+
+**Duration:** 09/2021 – 02/2026  
+**Funding:** the European Union’s Horizon 2020 research and innovation program under grant agreement N° 101000752.  
+
+**About the Project**  
+The WalNUT project’s mission was to develop concepts and technologies to rethink and redesign nutrient value chains from different wastewater streams (industrial and municipal) and brine, aligned with EIP Agrifood and Raw Materials goals. A range of physico-, electro-, and biological processes were tested at lab scale, with the most promising technologies being adopted at pilot-scale by a consortium of European industrial and academic stakeholders. The five pilots targeted high nutrient recovery for biobased fertilizer use and low environmental impact, alongside thorough output product quality assessment to support market positioning. Performance was evaluated using thorough techno-economic (TEA) and life cycle assessment (LCA), advancing technologies to TRL 4–6. The project also aimed to facilitate the shift from waste treatment to resource recovery, raising awareness and engaging relevant stakeholders via workshops, showcase events, exchange platforms, informative guides, and audiovisual material. 
+
+**Keywords:** wastewater valorization, nutrient recovery, biofertilizer production
+
+**Project Link:**  
+[Walnut](https://walnutproject.eu/)
 
 ---
