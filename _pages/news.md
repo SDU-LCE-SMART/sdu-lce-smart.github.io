@@ -1,20 +1,95 @@
 ---
 title: "News"
 layout: default
-excerpt: "RT2 Lab at Institut Curie"
-sitemap: false
-permalink: /news.html
+permalink: /news/
 ---
-<h1>{{page.title}}</h1>
 
-<ul class="list-unstyled">
-    {% for article in site.data.news %}
-        <li class="media">
-            <div class="media-body">
-            <h4 class="mt-0 mb-1">{{ article.title }}</h4>
-            <p><small>{{ article.date }}</small></p>
-            {{ article.content }}
-            </div>
-        </li>
-    {% endfor %}
-</ul>
+<h1 class="news-title">News</h1>
+
+
+<div class="news-container">
+
+  <!-- =========================
+          POST 1
+  ========================= -->
+
+  <article class="news-card">
+
+    <h2 class="news-heading">
+      Sustainability Assessment & Life Cycle Thinking Workshop
+    </h2>
+
+    <p class="news-date">17–18 November 2025</p>
+
+    <div class="news-content">
+
+      <p>
+        Our team hosted a two-day Sustainability Assessment & Life Cycle Thinking Workshop at the Department of Green Technology, University of Southern Denmark, organized within the framework of the AgriLoop project. The workshop aimed to strengthen knowledge and practical skills in sustainability assessment methods used to evaluate emerging technologies and bio-based systems.
+      </p>
+
+      <p>
+        <strong>Day 1 – Lectures and Knowledge Building</strong><br>
+        The first day focused on key theoretical concepts in sustainability assessment. The lectures covered topics including Systems Thinking, Safe and Sustainable by Design (SSbD), Life Cycle Assessment (LCA), Material Flow Analysis (MFA), agricultural emissions and land-use change, and Multi-Criteria Decision Making (MCDM). The sessions encouraged active discussion and exchange of ideas among participants.
+      </p>
+
+      <p>
+        <strong>Day 2 – Hands-on Learning</strong><br>
+        The second day focused on practical training. Participants worked in groups on Life Cycle Assessment case studies, practicing consequential LCA, using the Activity Browser, interpreting results, and presenting their findings at the end of the day.
+      </p>
+
+      <p>
+        The workshop provided an interactive platform for learning, collaboration, and strengthening capacity in sustainability assessment and life cycle thinking.
+      </p>
+
+    </div>
+
+    <p class="news-author">
+      This post is written by Amin
+    </p>
+
+    <p class="news-note">
+      More pictures provided in the photo file
+    </p>
+
+  </article>
+
+
+  <!-- =========================
+          POST 2
+  ========================= -->
+
+  <article class="news-card">
+
+    <h2 class="news-heading">
+      European Energy Innovation Magazine
+    </h2>
+
+    <div class="news-content">
+
+      <p>
+        The TAKE-OFF project was featured in the last edition of the European Energy Innovation magazine in an article titled: TAKE-OFF and the techno-economic and environmental assessment of jet fuel production from CO₂ and H₂.
+      </p>
+
+      <p>
+        Our project’s pathways for producing sustainable aviation fuel (SAF) from CO₂ and H₂ are currently at a low technology readiness level (TRL 3-4) and are expected to reach TRL 5 by the end of the project. To include sustainability aspects in the early stages of design and production, all technology lines are assessed in terms of sustainability using Life Cycle Assessment (LCA) and Techno-economic Analysis (TEA).
+      </p>
+
+      <p>
+        Multiple scenarios regarding carbon capture, hydrogen production technology, energy sources, etc. are developed and system models for each scenario are created and simulated using experimental data.
+      </p>
+
+      <p>
+        The article was drafted by Benyamin Khoshnevisan and Hadis Marami from our project partner Syddansk Universitet - University of Southern Denmark.
+      </p>
+
+    </div>
+
+    <p class="news-link">
+      <a href="https://lnkd.in/d5z7NhNh" target="_blank">
+        Read full article →
+      </a>
+    </p>
+
+  </article>
+
+</div>
