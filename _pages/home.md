@@ -14,7 +14,7 @@ The team is particularly interested in developing new analytical tools, methodol
 ---
 </div>
 
-<!--
+
 ## Research Areas
 
 <div class="research-grid">
@@ -68,4 +68,3 @@ Building data-driven models that support sustainable resource planning.
 - Author et al. (2025). Paper title. Journal Name.  
 - Author et al. (2024). Paper title. Journal Name.  
 - Author et al. (2023). Paper title. Journal Name.
--->
