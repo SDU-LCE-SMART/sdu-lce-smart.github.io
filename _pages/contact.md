@@ -4,27 +4,29 @@ layout: default
 permalink: /contact/
 ---
 
-<section class="contact-section">
-  <div class="contact-intro">
-    <h2>Let’s Connect</h2>
-    <p>
-      We actively collaborate with academic, industrial, and public partners to develop
-      solutions that improve environmental performance, resource efficiency, and
-      decision-making in complex value chains.
-    </p>
-    <p>
-      If you are interested in our research, potential collaborations, or learning more
-      about our work, we would be delighted to hear from you.
-    </p>
-  </div>
+<div class="contact-section">
+
+  <h2>Let’s Connect</h2>
+
+  <p>
+    We actively collaborate with academic, industrial, and public partners to develop
+    solutions that improve environmental performance, resource efficiency, and
+    decision-making in complex value chains.
+  </p>
+
+  <p>
+    If you are interested in our research, potential collaborations, or learning more
+    about our work, we would be delighted to hear from you.
+  </p>
 
   <div class="contact-card">
     <h3>Collaboration & Research Inquiries</h3>
+
     <p>
       If you are passionate about advancing sustainability research and would like to
       explore collaboration opportunities, please contact
-      <strong>Dr. Benyamin Khoshnevisan</strong> and attach your
-      CV, transcripts, and/or sample publications.
+      <strong>Dr. Benyamin Khoshnevisan</strong> and attach your CV, transcripts,
+      and/or sample publications.
     </p>
 
     <p class="contact-email">
@@ -32,49 +34,35 @@ permalink: /contact/
       <a href="mailto:bekh@igt.sdu.dk">bekh@igt.sdu.dk</a>
     </p>
   </div>
-</section>
+
+</div>
 
 <style>
 .contact-section {
   max-width: 900px;
   margin: 0 auto;
-  padding: 2.5rem 1.5rem;
+  padding: 2rem;
 }
 
-.contact-intro h2 {
+.contact-section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #1f3c5a;
 }
 
-.contact-intro p {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  margin-bottom: 1rem;
+.contact-section p {
+  line-height: 1.7;
 }
 
 .contact-card {
   margin-top: 2rem;
-  padding: 1.8rem;
-  border-left: 5px solid #2f6f9f;
+  padding: 1.5rem;
+  border-left: 4px solid #2f6f9f;
   background: #f7fafc;
-  border-radius: 10px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
-}
-
-.contact-card h3 {
-  margin-top: 0;
-  color: #2f6f9f;
-}
-
-.contact-card p {
-  line-height: 1.8;
-  margin-bottom: 1rem;
+  border-radius: 8px;
 }
 
 .contact-email {
-  font-size: 1.05rem;
-  margin-top: 1.2rem;
+  margin-top: 1rem;
 }
 
 .contact-email a {
