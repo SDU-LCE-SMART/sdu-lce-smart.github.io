@@ -542,3 +542,61 @@ img {
   color: var(--gray);
   margin: 0;
 }
+
+
+/* =========================
+   NEWS PAGE (FINAL DESIGN)
+========================= */
+
+.news-container {
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+/* card */
+.news-card {
+  padding: 30px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* title */
+.news-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* date */
+.news-date {
+  color: var(--green-primary);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* content */
+.news-content p {
+  text-align: justify;
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+/* author */
+.news-author {
+  font-style: italic;
+  margin-top: 15px;
+}
+
+/* note */
+.news-note {
+  font-size: 14px;
+  color: var(--dark-gray);
+}
+
+/* link */
+.news-link a {
+  color: var(--green-primary);
+  font-weight: 500;
+}
+
+.news-link a:hover {
+  color: var(--green-accent);
+}
