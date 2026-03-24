@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="about-section">
-## About the Lab
+## About the Team
 
 The **LCE Smart Resource Management Team (SMART)** team is part of the Center for [Life Cycle Engineering (LCE)](https://www.sdu.dk/en/forskning/lifecycleengineering) at the [Department of Green Technology](https://www.sdu.dk/da/igt), Faculty of Engineering, [University of Southern Denmark](https://www.sdu.dk/en). We are an international research group dedicated to advancing quantitative approaches for evaluating and improving the sustainability of emerging technologies and bio-based systems.<br>
 Our work integrates Life Cycle Assessment (LCA), Safe and Sustainable by Design (SSbD), and Techno-Economic Assessment (TEA) to evaluate and improve the environmental and economic performance of emerging bio-based and industrial systems. By combining methodological development with practical applications, we aim to generate robust scientific insights that support sustainable innovation.<br>
