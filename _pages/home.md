@@ -12,6 +12,29 @@ Our work integrates Life Cycle Assessment (LCA), Safe and Sustainable by Design 
 The team is particularly interested in developing new analytical tools, methodological frameworks, and AI-based solutions that enhance sustainability assessment and decision-making across complex value chains. Through interdisciplinary collaboration, we contribute to advancing sustainable technologies and circular bioeconomy solutions.<br>
 
 ---
+
+<div class="project-slider">
+
+  <div class="slider-track">
+
+    <div class="slide"><img src="{{ site.baseurl }}/images/agriloop.png"></div>
+    <div class="slide"><img src="{{ site.baseurl }}/images/flavourferm.png"></div>
+    <div class="slide"><img src="{{ site.baseurl }}/images/agro4agri.png"></div>
+    <div class="slide"><img src="{{ site.baseurl }}/images/marmade.png"></div>
+    <div class="slide"><img src="{{ site.baseurl }}/images/alliance.png"></div>
+
+    <!-- duplicate for smooth loop -->
+    <div class="slide"><img src="{{ site.baseurl }}/images/agriloop.png"></div>
+    <div class="slide"><img src="{{ site.baseurl }}/images/flavourferm.png"></div>
+    <div class="slide"><img src="{{ site.baseurl }}/images/agro4agri.png"></div>
+    <div class="slide"><img src="{{ site.baseurl }}/images/marmade.png"></div>
+    <div class="slide"><img src="{{ site.baseurl }}/images/alliance.png"></div>
+
+  </div>
+
+</div>
+
+---
 </div>
 
 
@@ -57,14 +80,17 @@ Building data-driven models that support sustainable resource planning.
 
 ## Latest News
 
-- Example news item about a research project  
-- Example news item about a new student joining the lab  
-- Example news item about a publication  
+- Sustainability Assessment & Life Cycle Thinking Workshop
+- European Energy Innovation Magazine 
 
 ---
 
+<!-- =========================
+          
 ## Selected Publications
 
 - Author et al. (2025). Paper title. Journal Name.  
 - Author et al. (2024). Paper title. Journal Name.  
 - Author et al. (2023). Paper title. Journal Name.
+
+  ========================= -->
