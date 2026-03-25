@@ -13,28 +13,6 @@ The team is particularly interested in developing new analytical tools, methodol
 
 ---
 
-<div class="project-slider">
-
-  <div class="slider-track">
-
-    <div class="slide"><img src="{{ site.baseurl }}/images/agriloop.png"></div>
-    <div class="slide"><img src="{{ site.baseurl }}/images/flavourferm.png"></div>
-    <div class="slide"><img src="{{ site.baseurl }}/images/agro4agri.png"></div>
-    <div class="slide"><img src="{{ site.baseurl }}/images/marmade.png"></div>
-    <div class="slide"><img src="{{ site.baseurl }}/images/alliance.png"></div>
-
-    <!-- duplicate for smooth loop -->
-    <div class="slide"><img src="{{ site.baseurl }}/images/agriloop.png"></div>
-    <div class="slide"><img src="{{ site.baseurl }}/images/flavourferm.png"></div>
-    <div class="slide"><img src="{{ site.baseurl }}/images/agro4agri.png"></div>
-    <div class="slide"><img src="{{ site.baseurl }}/images/marmade.png"></div>
-    <div class="slide"><img src="{{ site.baseurl }}/images/alliance.png"></div>
-
-  </div>
-
-</div>
-
----
 </div>
 
 
