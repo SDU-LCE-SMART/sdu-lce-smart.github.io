@@ -80,7 +80,7 @@ a:hover {
 
 .hero-banner {
   position: relative;
-  height: 100%; /* FIXED HEIGHT */
+  min-height: 80vh; /* FIXED HEIGHT */
 }
 
 .hero-banner img {
@@ -98,7 +98,7 @@ a:hover {
   z-index: 1;
 }
 
-/* CONTENT */
+/* CONTENT 
 .hero-content {
   position: absolute;
   top: 50%;
@@ -109,17 +109,32 @@ a:hover {
   max-width: 700px;
   z-index: 2;
 }
+*/
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  text-align: center;
+  width: 90%;
+  max-width: 900px;   /* allow more breathing space */
+  padding: 0 20px;
+  z-index: 2;
+}
 
 /* LOGO (3× bigger but controlled) */
 .hero-logo {
-  max-width: 460px;  /* balanced size */
-  /* margin-bottom: 10px */
+  width: 100%;
+  max-width: 460px;
+  height: auto;
 }
 
 /* TITLE (smaller + black) */
 .hero-title {
   color: var(--black);
-  font-size: 20px;   /* smaller */
+  font-size: clamp(16px, 2.5vw, 22px);/* smaller */
   font-weight: 600;
   margin-bottom: 12px;
   line-height: 1.4;
@@ -128,7 +143,7 @@ a:hover {
 /* DESCRIPTION (better styling) */
 .hero-subtitle {
   color: var(--black);
-  font-size: 15px;
+  font-size: clamp(13px, 2vw, 16px);
   opacity: 0.8;
   max-width: 500px;
   margin: 0 auto;
