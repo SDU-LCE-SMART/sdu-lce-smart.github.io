@@ -18,7 +18,7 @@ The team is particularly interested in developing new analytical tools, methodol
 
 ## Research Areas
 
-![Research Overview](/assets/images/ForWebsite.png)
+![Research Overview](/images/ForWebsite.png)
 
 <!--
 
