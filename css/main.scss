@@ -900,3 +900,15 @@ img {
     transform: translateX(-50%);
   }
 }
+
+/* --------------------------
+   Research Area 
+--------------------------- */
+
+img[alt="Research Overview"] {
+  display: block;
+  width: 100%;
+  max-width: 1000px;   /* adjust based on your layout */
+  height: auto;
+  margin: 0 auto;
+}
