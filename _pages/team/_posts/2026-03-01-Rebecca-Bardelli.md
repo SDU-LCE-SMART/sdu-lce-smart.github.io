@@ -1,6 +1,6 @@
 ---
 layout: member
-category: phds
+category: current-visitors
 title: Rebecca Bardelli
 role: Erasmus Guest Student
 permalink: /team/Rebecca-Bardelli/
