@@ -130,3 +130,27 @@ permalink: /team/
 
 </div>
 {% endfor %}
+
+<!-- =========================
+         Current visitors
+========================= -->
+
+<h2 id="current-visitors" class="team-section-title">Current visitors</h2>
+
+{% assign members = site.posts | where: 'category', 'current-visitors' | sort: 'date' %}
+{% for member in members %}
+<div class="team-card">
+
+    <div class="team-card-row">
+
+        <!-- INFO -->
+        <div class="team-info">
+            <h4 class="team-name">   <a href="{{ member.url }}">     {{ member.title }}   </a> </h4>
+            <p class="team-role">{{ member.role }}</p>
+        </div>
+
+    </div>
+
+</div>
+{% endfor %}
+
