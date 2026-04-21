@@ -154,3 +154,25 @@ permalink: /team/
 </div>
 {% endfor %}
 
+<!-- =========================
+         Alumni
+========================= -->
+
+<h2 id="alumni" class="team-section-title">alumni</h2>
+
+{% assign members = site.posts | where: 'category', 'alumni' | sort: 'date' %}
+{% for member in members %}
+<div class="team-card">
+
+    <div class="team-card-row">
+
+        <!-- INFO -->
+        <div class="team-info">
+            <h4 class="team-name">{{ member.title }}</h4>
+            <p class="team-role">{{ member.role }}</p>
+        </div>
+
+    </div>
+
+</div>
+{% endfor %}
