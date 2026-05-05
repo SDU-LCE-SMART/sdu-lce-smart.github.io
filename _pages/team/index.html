@@ -143,6 +143,15 @@ permalink: /team/
 
     <div class="team-card-row">
 
+
+        <!-- IMAGE -->
+        <div class="team-image">
+            <a href="{{ member.url }}">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+                     class="team-photo"/>
+            </a>
+        </div>
+             
         <!-- INFO -->
         <div class="team-info">
             <h4 class="team-name">{{ member.title }}</h4>
