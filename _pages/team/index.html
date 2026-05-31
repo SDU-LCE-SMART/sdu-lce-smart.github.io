@@ -175,11 +175,15 @@ permalink: /team/
 
     <div class="team-card-row">
 
-        <!-- INFO -->
-        <div class="team-info">
-            <h4 class="team-name">{{ member.title }}</h4>
-            <p class="team-role">{{ member.role }}</p>
-        </div>
+<!-- INFO -->
+<div class="team-info">
+    <h4 class="team-name">{{ member.title }}</h4>
+    <p class="team-role">{{ member.role }}</p>
+
+    {% if member.affiliation %}
+    <p class="team-affiliation">{{ member.affiliation }}</p>
+    {% endif %}
+</div>
 
     </div>
 
