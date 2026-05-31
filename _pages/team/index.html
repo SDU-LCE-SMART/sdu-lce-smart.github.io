@@ -152,11 +152,14 @@ permalink: /team/
             </a>
         </div>
              
-        <!-- INFO -->
-        <div class="team-info">
-            <h4 class="team-name">{{ member.title }}</h4>
-            <p class="team-role">{{ member.role }}</p>
-        </div>
+<div class="team-info">
+    <h4 class="team-name">{{ member.title }}</h4>
+    <p class="team-role">{{ member.role }}</p>
+
+    {% if member.affiliation %}
+    <p class="team-affiliation">{{ member.affiliation }}</p>
+    {% endif %}
+</div>
 
     </div>
 
