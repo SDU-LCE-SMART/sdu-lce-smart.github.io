@@ -17,6 +17,8 @@ social:
 education:
  - "PhD in Biosystems Engineering"
 projects:
+ - name: PHACTUS
+   link: /projects/#phactus
  - name: AGRO4AGRI
    link: /projects/#agro4agri
  - name: ALLIANCE
