@@ -17,6 +17,8 @@ social:
 education:
  - "Master’s degree in Civil and Environmental Engineering"
 projects:
+ - name: PHACTUS
+   link: /projects/#phactus
  - name: AgriLoop
    link: /projects/#agriloop
  - name: GreenImPro
