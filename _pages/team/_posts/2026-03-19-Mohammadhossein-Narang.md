@@ -17,6 +17,8 @@ social:
 education:
  - "Master’s degree in Voice Techonology (Machine Learning)"
 projects:
+ - name: PHACTUS
+   link: /projects/#phactus
  - name: AGRO4AGRI
    link: /projects/#agro4agri
  - name: ALLIANCE
