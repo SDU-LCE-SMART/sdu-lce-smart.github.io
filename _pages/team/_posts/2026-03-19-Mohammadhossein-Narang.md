@@ -1,9 +1,9 @@
 ---
 layout: member
-category: research-assistants
+category: phds
 title: Mohammadhossein Narang
 image: MH.jpeg
-role: Research Assistant
+role: PhD Candidate
 permalink: /team/Mohammadhossein-Narang/
 email: mhna@igt.sdu.dk
 social:
