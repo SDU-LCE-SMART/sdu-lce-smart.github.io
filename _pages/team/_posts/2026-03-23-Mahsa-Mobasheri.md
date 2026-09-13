@@ -19,6 +19,8 @@ education:
 projects:
  - name: ALLIANCE
    link: /projects/#alliance
+ - name: PHACTUS
+   link: /projects/#phactus
 ---
 
 Mahsa Mobasheri holds a PhD in Environmental Science Engineering and a master’s degree in Environmental Pollution from the University of Science and Research, Tehran. During her PhD, she was a researcher at Van 't Hoff Institute for Molecular Sciences, University of Amsterdam, the Netherlands and focused on the detection of microplastics in various environmental matrices (2023-2025). Since October 2025, Mahsa has been affiliated with the University of Southern Denmark (SDU), as a postdoctoral researcher at the Centre for Life Cycle Engineering, Department of Green Technology where she contributes to the ALLIANCE project (2025–2027). The project is supported by the Circular Bio-based Europe Joint Undertaking and its member, and co-funded by the EU. Her research focuses on Safe and Sustainable by Design (SSbD) on the European microalgae.
