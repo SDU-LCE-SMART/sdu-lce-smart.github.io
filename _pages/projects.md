@@ -4,6 +4,36 @@ layout: default
 permalink: /projects/
 ---
 
+<a id="phactus"></a>
+<div class="project-row">
+<div class="project-left">
+  <img src="{{ site.baseurl }}/images/PHACTUS.png" alt="PHACTUS project logo">
+</div>
+<div class="project-right">
+<h2>PHACTUS</h2>
+
+<p><strong>PHA through continuous, Tunable, Safe and Sustainable production</strong></p>
+
+<p><strong>Duration: 01/09/2026 – 31/08/2029</strong><br>
+<strong>Funding:</strong> PHACTUS is supported by the Circular Bio-based Europe Joint Undertaking (CBE JU) and its members and co-funded by the European Union under Horizon Europe (Grant No. 101292437).<br>
+<strong>Status:</strong> Ongoing</p>
+
+<p><strong>About the Project</strong><br>
+PHACTUS aims to demonstrate and scale up a first-of-its-kind continuous process for producing biodegradable polyhydroxyalkanoates (PHAs), specifically poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBV), from urban organic waste and wastewater sludge using mixed microbial cultures. By integrating continuous upstream and downstream bioprocesses with advanced online monitoring, digital process control, and modelling tools, the project seeks to improve process efficiency, robustness, and industrial scalability while contributing to a circular bio-based economy.</p>
+
+<p>Guided by the Safe and Sustainable by Design (SSbD) framework, PHACTUS combines technological innovation with environmental, economic, and social sustainability assessment throughout the entire value chain. The project will demonstrate biodegradable PHBV-based materials for applications in construction, agriculture, composites, and packaging, while investigating circular end-of-life strategies, including material recovery, recycling, and the potential conversion of PHA waste back into valuable precursors.</p>
+
+<p>Bringing together a multidisciplinary consortium of 17 European partners, PHACTUS aims to reduce greenhouse gas emissions, lower production costs, and strengthen the deployment and regional replicability of sustainable bio-based plastics across Europe.</p>
+
+<p><strong>Keywords:</strong> PHACTUS, PHBV, Polyhydroxyalkanoates (PHA), Urban Organic Waste, Municipal Sludge, Circular Bioeconomy, SSbD, Biodegradable Polymers</p>
+
+<p><strong>Project Link:</strong><br>
+<a href="https://www.phactus.eu/">PHACTUS</a></p>
+</div>
+</div>
+
+<hr>
+
 <a id="agriloop"></a>
 <div class="project-row">
 <div class="project-left">
