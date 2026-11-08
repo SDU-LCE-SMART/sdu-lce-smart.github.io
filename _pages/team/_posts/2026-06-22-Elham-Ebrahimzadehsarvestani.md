@@ -1,6 +1,6 @@
 ---
 layout: member
-category: current-visitors
+category: alumni
 title: Elham Ebrahimzadehsarvestani
 image: Elham-Ebrahimzadehsarvestani.jpg
 role: Visiting PhD student
